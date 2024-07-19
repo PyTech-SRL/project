@@ -5,7 +5,11 @@
         <field name="model">project.task</field>
         <field name="inherit_id" ref="project.view_task_form2" />
         <field name="arch" type="xml">
+            <field name="user_ids" position="after">
+                <field name="parent_id" position="move" />
+            </field>
             <field name="parent_id" position="attributes">
+                <attribute name="invisible">0</attribute>
                 <attribute name="domain">[('project_id', '=', project_id)]</attribute>
             </field>
         </field>

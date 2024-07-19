@@ -1,7 +1,7 @@
 {
     "name": "Project Task Parent Same Project",
     "summary": "Filters parent tasks of the same project",
-    "version": "15.0.1.0.1",
+    "version": "16.0.1.0.1",
     "category": "Project Management",
     "author": "Odoo Community Association (OCA), PyTech SRL",
     "website": "https://github.com/OCA/project",
