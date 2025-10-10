@@ -84,6 +84,7 @@ enable=anomalous-backslash-in-string,
     xml-deprecated-qweb-directive,
     xml-deprecated-tree-attribute,
     attribute-string-redundant,
+    # messages that do not cause the lint step to fail
     consider-merging-classes-inherited,
     context-overridden,
     except-pass,
@@ -109,11 +110,7 @@ enable=anomalous-backslash-in-string,
     old-api7-method-defined,
     unnecessary-utf8-coding-comment,
     # messages that do not cause the lint step to fail
-    consider-merging-classes-inherited,
     deprecated-module,
-    invalid-commit,
-    missing-readme,
-    odoo-addons-relative-import,
     redefined-builtin,
     manifest-external-assets
 
