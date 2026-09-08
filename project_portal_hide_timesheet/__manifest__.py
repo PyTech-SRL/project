@@ -8,6 +8,10 @@
     ],
     "website": "https://github.com/OCA/project",
     "author": "PyTech SRL, Odoo Community Association (OCA)",
+    "maintainers": [
+        "HekkiMelody",
+        "SirPyTech",
+    ],
     "category": "Project",
     "license": "AGPL-3",
     "data": [
